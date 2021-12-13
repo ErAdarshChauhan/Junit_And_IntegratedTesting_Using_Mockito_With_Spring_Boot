@@ -12,6 +12,7 @@
 	<groupId>com.javamind</groupId>
 	<artifactId>springBoot_testing_junit</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>springBoot_testing_junit</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
