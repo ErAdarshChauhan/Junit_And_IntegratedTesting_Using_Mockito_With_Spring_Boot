@@ -24,6 +24,13 @@ public class EmployeeController {
 	@Autowired
 	private EmployeeService employeeService;
 	
+	@GetMapping("/")
+	public ResponseEntity<String> getMsg() {
+		
+		return ResponseEntity.status(HttpStatus.OK).body("Welcome to Employee Dashboard");
+		
+	}
+	
 	@GetMapping("/all")
 	public ResponseEntity<List<Employee>> getAllEmployees() {
 		
